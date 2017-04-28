@@ -12,6 +12,10 @@
 		81CEB6501EB3217900E26622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CEB64E1EB3217900E26622 /* Main.storyboard */; };
 		81CEB6521EB3217900E26622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CEB6511EB3217900E26622 /* Assets.xcassets */; };
 		81CEB6551EB3217A00E26622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CEB6531EB3217A00E26622 /* LaunchScreen.storyboard */; };
+		81CEB65D1EB3219900E26622 /* RYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEB65C1EB3219900E26622 /* RYAlertView.swift */; };
+		81CEB6601EB3233100E26622 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEB65E1EB3233100E26622 /* UIColor+Extention.swift */; };
+		81CEB6611EB3233100E26622 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEB65F1EB3233100E26622 /* UIView+Extention.swift */; };
+		81CEB6631EB3237700E26622 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEB6621EB3237700E26622 /* String+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		81CEB6511EB3217900E26622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CEB6541EB3217A00E26622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81CEB6561EB3217A00E26622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CEB65C1EB3219900E26622 /* RYAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYAlertView.swift; sourceTree = "<group>"; };
+		81CEB65E1EB3233100E26622 /* UIColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
+		81CEB65F1EB3233100E26622 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		81CEB6621EB3237700E26622 /* String+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				81CEB64A1EB3217900E26622 /* AppDelegate.swift */,
 				81CEB64C1EB3217900E26622 /* ViewController.swift */,
+				81CEB65C1EB3219900E26622 /* RYAlertView.swift */,
+				81CEB6621EB3237700E26622 /* String+Extention.swift */,
+				81CEB65E1EB3233100E26622 /* UIColor+Extention.swift */,
+				81CEB65F1EB3233100E26622 /* UIView+Extention.swift */,
 				81CEB64E1EB3217900E26622 /* Main.storyboard */,
 				81CEB6511EB3217900E26622 /* Assets.xcassets */,
 				81CEB6531EB3217A00E26622 /* LaunchScreen.storyboard */,
@@ -136,6 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CEB6601EB3233100E26622 /* UIColor+Extention.swift in Sources */,
+				81CEB6631EB3237700E26622 /* String+Extention.swift in Sources */,
+				81CEB65D1EB3219900E26622 /* RYAlertView.swift in Sources */,
+				81CEB6611EB3233100E26622 /* UIView+Extention.swift in Sources */,
 				81CEB64D1EB3217900E26622 /* ViewController.swift in Sources */,
 				81CEB64B1EB3217900E26622 /* AppDelegate.swift in Sources */,
 			);
